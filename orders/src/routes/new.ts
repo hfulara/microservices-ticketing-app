@@ -11,7 +11,7 @@ import { Ticket } from '../models/ticket';
 import { Order, OrderStatus } from '../models/order';
 
 const router = express.Router();
-const EXPIRATION_WINDOW_SECOND = 15 * 60;
+const EXPIRATION_WINDOW_SECOND = 1 * 60;
 
 router.post(
   '/api/orders',
